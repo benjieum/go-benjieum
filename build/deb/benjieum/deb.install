@@ -1,0 +1,5 @@
+build/bin/{{.BinaryName}} usr/bin
+{{- if eq .BinaryName "gbenji" }}
+build/deb/benjieum/completions/bash/gbenji etc/bash_completion.d
+build/deb/benjieum/completions/zsh/_gbenji usr/share/zsh/vendor-completions
+{{end -}}
