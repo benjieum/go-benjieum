@@ -68,7 +68,7 @@ var (
 		EIP155Block:                   big.NewInt(0),
 		EIP158Block:                   big.NewInt(0),
 		ByzantiumBlock:                big.NewInt(0),
-		ConstantinopleBlock:           big.NewInt(7_280_000),
+		ConstantinopleBlock:           big.NewInt(0),
 		PetersburgBlock:               big.NewInt(0),
 		IstanbulBlock:                 big.NewInt(0),
 		MuirGlacierBlock:              big.NewInt(0),
