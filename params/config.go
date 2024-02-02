@@ -62,7 +62,7 @@ var (
 		ChainID:                       big.NewInt(8497),
 		HomesteadBlock:                big.NewInt(0),
 		DAOForkBlock:                  big.NewInt(0),
-		DAOForkSupport:                true,
+		DAOForkSupport:                false,
 		EIP150Block:                   big.NewInt(0),
 		EIP150Hash:                    common.Hash{},
 		EIP155Block:                   big.NewInt(0),
